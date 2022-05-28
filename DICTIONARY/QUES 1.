@@ -1,0 +1,5 @@
+my_dict = {'x':500, 'y':5874, 'z': 560}
+kmax = max(my_dict.keys(), key=(lambda k: my_dict[k]))
+kmin = min(my_dict.keys(), key=(lambda k: my_dict[k]))
+print('Maximum Value: ',my_dict[kmax])
+print('Minimum Value: ',my_dict[kmin])
