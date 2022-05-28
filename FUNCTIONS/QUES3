@@ -1,0 +1,6 @@
+def conversion(str):
+  s=str.upper()
+  print(s)
+  
+str=input("Enter String:")
+conversion(str)
