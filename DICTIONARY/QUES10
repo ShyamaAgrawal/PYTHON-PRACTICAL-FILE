@@ -1,0 +1,5 @@
+info={'Name':'Abc','U.Roll':'1235645000'}
+upd={'Section':'A','Batch':'2021-22'}
+for a,b in upd.items():
+  info[a]=b
+print(info)
