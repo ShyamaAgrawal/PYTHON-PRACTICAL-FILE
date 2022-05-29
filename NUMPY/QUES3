@@ -1,0 +1,3 @@
+import numpy as np
+r,c=list(map(int,input().split()))
+print(np.eye(r,c))
