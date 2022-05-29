@@ -1,0 +1,9 @@
+def simple_interest(p,t,r):  
+    si = (p * t * r)/100 
+    print('The Simple Interest is', si)
+    return si
+    
+p=int(input('Enter The principal:'))
+t=int(input('Enter The time period:'))
+r=int(input('Enter The rate of interest:'))    
+simple_interest(p,t,r)
