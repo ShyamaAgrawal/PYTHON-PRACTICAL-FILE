@@ -1,0 +1,6 @@
+d = {
+    'Physics': 100,
+    'Math': 98,
+    'Python': 96
+}
+print(min(d, key=d.get))
