@@ -1,0 +1,9 @@
+d = { 'Nature' : 40, 'is' : 15, 'love' : 20, 'and' : 15, 'beauty' : 20}
+print("The original dictionary is : " + str(d))
+temp = []
+re = dict()
+for key, val in d.items():
+    if val not in temp:
+        temp.append(val)
+        re[key] = val
+print("The dictionary after values removal : " + str(re)) 
