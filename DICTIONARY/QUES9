@@ -1,0 +1,9 @@
+d ={'val1': 5,
+    'val2': 4,
+    'val3': 3,
+    'val4': 2,
+    'val5': 1,}
+ans = 1
+for i in d:
+    ans = ans*d[i]
+print(ans)
