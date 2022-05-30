@@ -1,0 +1,7 @@
+f=open('file1.txt','a')
+str='Exams Coming Soon!!')
+f.write(str)
+f.close()
+f=open('file1.txt','r')
+print(f.read())
+f.close()
