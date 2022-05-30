@@ -1,0 +1,5 @@
+import numpy as np
+arr = np.array([10, 8, 20, 5, 8, 10, 8, 20, 9])
+unique, freq = np.unique(arr, return_counts = True)
+print("Unique Values:", unique)
+print("Frequency Values:",freq)
