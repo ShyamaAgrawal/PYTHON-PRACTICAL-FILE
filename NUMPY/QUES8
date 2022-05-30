@@ -1,0 +1,9 @@
+import numpy as np
+array1 = np.array([1.54, 2.99, 3.42, 4.87, 6.94,
+                      8.21, 7.65, 10.50, 77.5])
+print("Original array: ")
+print(array1)
+array2 = np.copy(array1)
+  
+print("\nCopied array: ")
+print(array2)
