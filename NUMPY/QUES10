@@ -1,0 +1,8 @@
+import numpy as np
+arr = np.array([[45, 52, 10],
+                  [1, 5, 25]])
+print("Given array:")
+print(arr)
+print("\nReplace all elements of array which are greater than or equal to 25 to 0")
+print("else remains the same ")
+print(np.where(arr >= 25, 0, arr))
