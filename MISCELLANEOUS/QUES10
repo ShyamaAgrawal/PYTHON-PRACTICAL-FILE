@@ -1,0 +1,4 @@
+import numpy as np
+np.random.seed(1)
+arr=np.random.randint(1,50,5)
+print(arr)
