@@ -1,0 +1,9 @@
+def trial(a , b):
+    try:
+        c = ((a+b) / (a-b))
+    except ZeroDivisionError:
+        print ("a/b result in 0")
+    else:
+        print (c)
+trial(2.0, 3.0)
+trial(3.0, 3.0)
