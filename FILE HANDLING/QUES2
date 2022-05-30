@@ -1,0 +1,6 @@
+n=int(input('Enter no of lines:'))
+f=open('file1.txt','r')
+for i in range(n):
+  r=f.readline()
+  print(r)
+f.close()
