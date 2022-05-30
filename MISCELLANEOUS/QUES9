@@ -1,0 +1,5 @@
+import math
+a=int(input("enter a no.: "))
+b=int(input("enter second no.: "))
+print(a,"raise to the power",b,"is:")
+print(math.pow(a,b))
