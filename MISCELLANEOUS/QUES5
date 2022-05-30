@@ -1,0 +1,4 @@
+import random
+name = 'coding_python'
+char = random.choice(name)
+print("random char is ", char)
